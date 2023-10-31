@@ -1,0 +1,9 @@
+html, body { height: 100%; width: 100%}
+
+.login {
+  position: fixed;
+  color: #fff;
+  top: 50px;
+  right: 70px;
+  font-size: 20px;
+}

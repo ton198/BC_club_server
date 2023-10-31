@@ -1,0 +1,10 @@
+html, body { height: 100%; width: 100%}
+
+p {
+    font-size: 30px;
+}
+
+img {
+    width: 450px;
+    margin: 0 auto;
+}

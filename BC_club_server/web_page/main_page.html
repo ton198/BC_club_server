@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BC Club</title>
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link href="/css/main-page.css" rel="stylesheet">
+  <link href="/css/select.css" rel="stylesheet">
+</head>
+<body style="background-image: url('res/forest.jpg')">
+<div id="account_div" class="login" style="display: table">
+  <button style="color: black" onclick="loginOnClick()">登录</button>
+</div>
+<div class="container" style="width: 100%; height: 100%; display: table">
+  <div class="row text-center" style="display: table-cell; vertical-align: middle; width: 100%; height: 100%">
+    <div class="col-sm-3 big_text select_style" onmouseup="APOnClick()">
+      AP
+    </div>
+    <div class="col-sm-3 big_text select_style" onmouseup="CompetitionOnClick()">
+      竞赛
+    </div>
+    <div class="col-sm-3 big_text select_style">
+      约课
+    </div>
+    <div class="col-sm-3 big_text select_style">
+      活动时间
+    </div>
+  </div>
+</div>
+<script src="/js/special-select.js"></script>
+<script src="/js/cookie-util.js"></script>
+<script src="/js/main-page.js"></script>
+</body>
+</html>
